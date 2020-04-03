@@ -1,0 +1,27 @@
+
+
+GA/
+|------analyses_done
+|     |-----1_fastqc
+|     |     |----DNA_trimmed_QC
+|     |     |----RNA_trimmed_QC
+|     |-----2_megahit
+|     |     |----DNA_trimmed_megahit
+|     |     |----RNA_untrimmed_megahit
+|     |-----3_metabat
+|     |-----4_Binning_evaluation
+|     |     |----4_CheckM
+|     |     |----4_MetaQuast
+|     |-----5_prokka
+|     |-----6_phylophlan
+|     |-----7_trimmomatic
+|     |-----8_bwa
+|     |-----9_htseq
+|
+|------commands
+|     |-----2_megahit.sh
+|
+|------data
+|     |-----raw_data
+|     |-----trimmed_data
+

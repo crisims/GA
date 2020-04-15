@@ -12,6 +12,6 @@ module load bioinfo-tools
 module load megahit
 
 # Your commands
-megahit -1 /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz --kmin-1pass -t 2 -o /home/crisdu/GA/analyses_done/2_megahit
-megahit -1 /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 /proj/g2020008/4_Thrash_2017/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz --kmin-1pass -t 2 -o /home/crisdu/GA/analyses_done/2_megahit
+megahit -1 ~/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 ~/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz --kmin-1pass -t 2 -o /home/crisdu/GA/analyses_done/2_megahit
+megahit -1 ~/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 /DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz --kmin-1pass -t 2 -o /home/crisdu/GA/analyses_done/2_megahit
 

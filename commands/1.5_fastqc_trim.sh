@@ -12,4 +12,4 @@ module load bioinfo-tools
 module load FastQC/0.11.8
 
 # Your commands
-fastqc -f fastq -t 2 -o /home/crisdu/analyses_done/1_Fastqc/RNA_trimmed_fastqc /home/crisdu/analyses_done/1.5Trim/RNA_trimmed/*.fastq.gz
+fastqc -f fastq -t 2 -o /home/crisdu/analyses_done/1_Fastqc/RNA_trimmed_fastqc /home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/*.fastq.gz

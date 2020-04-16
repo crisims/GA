@@ -15,20 +15,20 @@ module load trimmomatic
 trimmomatic PE -threads 2 -phred33 \
 /proj/g2020008/4_Thrash_2017/RNA_untrimmed/SRR4342137.1.fastq.gz \
 /proj/g2020008/4_Thrash_2017/RNA_untrimmed/SRR4342137.2.fastq.gz \
-/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342137_paired_forward.fastq.gz \
-/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342137_unpaired_forward.fastq.gz \
-/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342137_paired_reverse.fastq.gz \
-/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342137_unpaired_reverse.fastq.gz \
+/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342137_pairedf.fastq.gz \
+/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342137_unpairedf.fastq.gz \
+/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342137_pairedr.fastq.gz \
+/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342137_unpairedr.fastq.gz \
 ILLUMINACLIP:$TRIMMOMATIC_HOME/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:30 MINLEN:50
 
 #second pair 39
 trimmomatic PE -threads 2 -phred33 \
 /proj/g2020008/4_Thrash_2017/RNA_untrimmed/SRR4342139.1.fastq.gz \
 /proj/g2020008/4_Thrash_2017/RNA_untrimmed/SRR4342139.2.fastq.gz \
-/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342139_paired_forward.fastq.gz \
-/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342139_unpaired_forward.fastq.gz \
-/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342139_paired_reverse.fastq.gz \
-/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342139_unpaired_reverse.fastq.gz \
+/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342139_pairedf.fastq.gz \
+/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342139_unpairedf.fastq.gz \
+/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342139_pairedr.fastq.gz \
+/home/crisdu/analyses_done/1.5_Trim/RNA_trimmed/SRR4342139_unpairedr.fastq.gz \
 ILLUMINACLIP:$TRIMMOMATIC_HOME/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:30 MINLEN:50
 
 #structure that follows

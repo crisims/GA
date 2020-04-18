@@ -1,8 +1,0 @@
-/home/crisdu/analyses_done/2.5_metaq/quast_corrected_input/Gimesia_maris.fasta /home/crisdu/analyses_done/2.5_metaq/quast_corrected_input/final-contigs_to_Gimesia_maris.fasta
-NUCMER
->Gimesia_maris_NZ_CP043931.1_Gimesia_maris_strain_DSM_8797_chromosome__complete_genome k105_124792_flag_1_multi_3.0000_len_2945 7818248 2945
-436320 436395 2091 2016 1 1 0
-0
->Gimesia_maris_NZ_CP043931.1_Gimesia_maris_strain_DSM_8797_chromosome__complete_genome k105_26518_flag_1_multi_2.0000_len_564 7818248 564
-5514867 5515411 564 20 25 25 0
-0

@@ -1,8 +1,0 @@
-/home/crisdu/analyses_done/2.5_metaq/quast_corrected_input/endosymbiont_of_Ridgeia_piscesae.fasta /home/crisdu/analyses_done/2.5_metaq/quast_corrected_input/final-contigs_to_endosymbiont_of_Ridgeia_piscesae.fasta
-NUCMER
->endosymbiont_of_Ridgeia_piscesae_NZ_KQ557152.1_Endosymbiont_of_Ridgeia_piscesae_isolate_ind11_scaffold38__whole_genome_shotgun_sequence k105_69360_flag_1_multi_13.0000_len_669 19620 669
-5797 6011 455 669 6 6 0
-0
->endosymbiont_of_Ridgeia_piscesae_NZ_KQ557126.1_Endosymbiont_of_Ridgeia_piscesae_isolate_ind11_scaffold12__whole_genome_shotgun_sequence k105_69986_flag_1_multi_1.8607_len_622 98883 622
-32020 32113 520 427 2 2 0
-0

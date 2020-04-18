@@ -1,0 +1,8 @@
+/home/crisdu/analyses_done/2.5_metaq/quast_corrected_input/Polaribacter_sp._MED152.fasta /home/crisdu/analyses_done/2.5_metaq/quast_corrected_input/final-contigs_to_Polaribacter_sp._MED152.fasta
+NUCMER
+>Polaribacter_sp._MED152_NC_020830.1_Polaribacter_sp._MED152__complete_genome k105_68440_flag_1_multi_4.0000_len_1213 2961474 1213
+1076069 1076149 230 150 0 0 0
+0
+>Polaribacter_sp._MED152_NC_020830.1_Polaribacter_sp._MED152__complete_genome k105_8026_flag_1_multi_1.8343_len_636 2961474 636
+1312187 1312320 134 1 3 3 0
+0

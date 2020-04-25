@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SRR4342133_k105_122989_2 -             93 Ribosomal_L11        PF00298.14    69   1.1e-08   29.3   0.2   1   1   7.7e-11   1.7e-08   28.6   0.2    11    69    13    70     6    70 0.82 # 830 # 1108 # 1 # ID=50_2;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.595
+SRR4342133_k105_111538_3 -            152 Ribosomal_S15        PF00312.17    83   8.8e-18   58.0   0.3   1   1   9.4e-20   2.1e-17   56.8   0.2     5    75    69   143    65   151 0.91 # 2195 # 2650 # -1 # ID=40_3;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.645
+SRR4342133_k105_35520_4 -            128 Ribosomal_S11        PF00411.14   110   1.1e-32  106.6   1.0   1   1   5.6e-35   1.3e-32  106.4   1.0     2   110     6   123     5   123 0.97 # 2029 # 2412 # 1 # ID=13_4;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.641
+SRR4342133_k105_122989_4 -            339 Ribosomal_L10        PF00466.15   100   2.5e-14   47.1   0.0   1   1   2.5e-16   5.5e-14   46.0   0.0     2    90     5    93     4   103 0.88 # 1811 # 2827 # 1 # ID=50_4;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.651
+SRR4342133_k105_122989_3 -            215 Ribosomal_L1         PF00687.16   220   1.3e-37  123.3   0.0   1   1     7e-40   1.6e-37  123.0   0.0     5   220     6   207     3   207 0.91 # 1170 # 1814 # 1 # ID=50_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.626
+SRR4342133_k105_144773_6 -            599 IF-2                 PF11987.3    109   4.3e-17   56.1   0.3   1   2   1.4e-17   3.1e-15   50.1   0.0    13   108   355   453   343   454 0.86 # 3436 # 5232 # -1 # ID=57_6;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.626
+SRR4342133_k105_144773_6 -            599 IF-2                 PF11987.3    109   4.3e-17   56.1   0.3   2   2    0.0055       1.2    3.1   0.1    40    66   533   560   526   567 0.84 # 3436 # 5232 # -1 # ID=57_6;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.626
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /scratch/13857173/90d01171-649a-46a7-940c-450d3c6730e9
+# Target file:     /home/crisdu/analyses_done/4_checkm/bins/3_metabat_21/genes.faa
+# Option settings: hmmsearch --domtblout /home/crisdu/analyses_done/4_checkm/bins/3_metabat_21/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /scratch/13857173/90d01171-649a-46a7-940c-450d3c6730e9 /home/crisdu/analyses_done/4_checkm/bins/3_metabat_21/genes.faa 
+# Current dir:     /domus/h1/crisdu
+# Date:            Thu Apr 23 15:53:02 2020
+# [ok]

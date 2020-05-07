@@ -2,7 +2,7 @@
 #SBATCH -A g2020008
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 15:00:00
+#SBATCH -t 3:00:00
 #SBATCH -J bwa_analysis_39
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user cristinadiazubieta@gmail.com

@@ -17,7 +17,7 @@ module load  muscle/3.8.1551
 module load  usearch/5.2.32
 
 # set this to the directory where you want to store your phylophlan results
-outdir="/home/crisdu/analyses_done/6_phylo"
+outdir = /home/crisdu/analyses_done/6_phylo
 # create the directories that phylophlan looks for:
 # when you run phylophlan you specify a project name, which it looks for in the "input" directory
 # in this case the project name is "metagenome"
@@ -31,14 +31,14 @@ ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/data/ppaalns/*.bz2 $outdir/d
 ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/data/ppafull.tax.txt $outdir/data/
 ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/taxcuration/ $outdir/taxcuration
 
+# symlinks to input files
 ln -sf /home/crisdu/analyses_done/5_prokka/bin_1/annotation_bin1.faa $outdir/input/metagenome
 ln -sf /home/crisdu/analyses_done/5_prokka/bin_2/annotation_bin2.faa $outdir/input/metagenome
 ln -sf /home/crisdu/analyses_done/5_prokka/bin_3/annotation_bin3.faa $outdir/input/metagenome
 ln -sf /home/crisdu/analyses_done/5_prokka/bin_4/annotation_bin4.faa $outdir/input/metagenome
 
 # Your commands
-
-cd $outdir/output/
+cd $outdir
 phylophlan.py -i -t $outdir/input/metagenome --nproc 4
 
 #usage: phylophlan.py [-h] [-i] [-u] [-t] [--tax_test TAX_TEST] [-c]
@@ -47,3 +47,4 @@ phylophlan.py -i -t $outdir/input/metagenome --nproc 4
 
 
 #PhyloPhlAn also implements taxonomic curation, estimation, and insertion operations.
+

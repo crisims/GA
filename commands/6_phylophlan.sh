@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH -A g2020008
 #SBATCH -p core
-#SBATCH -n 4
+#SBATCH -n 2
 #SBATCH -t 07:00:00
 #SBATCH -J phylophlan_analysis
 #SBATCH --mail-type=ALL
@@ -31,7 +31,7 @@ ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/data/ppaalns/*.bz2 $outdir/d
 ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/data/ppafull.tax.txt $outdir/data/
 ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/taxcuration/ $outdir/taxcuration
 
-# symlinks to input files
+# symlinks to input files, NOT FINISHED!!
 ln -sf /home/crisdu/analyses_done/5_prokka/bin_1/annotation_bin1.faa $outdir/input/metagenome
 ln -sf /home/crisdu/analyses_done/5_prokka/bin_2/annotation_bin2.faa $outdir/input/metagenome
 ln -sf /home/crisdu/analyses_done/5_prokka/bin_3/annotation_bin3.faa $outdir/input/metagenome
@@ -39,7 +39,7 @@ ln -sf /home/crisdu/analyses_done/5_prokka/bin_4/annotation_bin4.faa $outdir/inp
 
 # Your commands
 cd $outdir
-phylophlan.py -i -t $outdir/input/metagenome --nproc 4
+phylophlan.py -i -t $outdir/input/metagenome --nproc 2
 
 #usage: phylophlan.py [-h] [-i] [-u] [-t] [--tax_test TAX_TEST] [-c]
 #                     [--cleanall] [--nproc N] [-v]

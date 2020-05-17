@@ -9,14 +9,15 @@
 
 # Load modules
 module load bioinfo-tools
-module load  phylophlan/0.99
-module load  python/2.7.11
-module load  FastTree/2.1.10
-module load  muscle/3.8.1551
-module load  usearch/5.2.32
+module load phylophlan/0.99
+module load biopython
+module load python/2.7.15
+module load FastTree/2.1.10
+module load muscle/3.8.1551
+module load usearch/5.2.32
 
 # set this to the directory where you want to store your phylophlan results
-outdir = /home/crisdu/analyses_done/8_phylo
+outdir = "/home/crisdu/analyses_done/8_phylo"
 # create the directories that phylophlan looks for:
 # when you run phylophlan you specify a project name, which it looks for in the "input" directory
 # in this case the project name is "metagenome"
@@ -40,7 +41,7 @@ done
 
 # Your commands
 cd $outdir
-phylophlan.py -i -t $outdir/input/metagenome --nproc 2
+phylophlan.py -i -t metagenome --nproc 2
 
 #usage: phylophlan.py [-h] [-i] [-u] [-t] [--tax_test TAX_TEST] [-c]
 #                     [--cleanall] [--nproc N] [-v]

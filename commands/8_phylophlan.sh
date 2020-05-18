@@ -16,7 +16,7 @@ module load muscle/3.8.1551
 module load usearch/5.2.32
 
 # set this to the directory where you want to store your phylophlan results
-outdir = "/home/crisdu/analyses_done/8_phylo"
+outdir="/home/crisdu/analyses_done/8_phylo"
 # create the directories that phylophlan looks for:
 # when you run phylophlan you specify a project name, which it looks for in the "input" directory
 # in this case the project name is "metagenome"

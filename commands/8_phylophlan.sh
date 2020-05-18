@@ -10,7 +10,6 @@
 # Load modules
 module load bioinfo-tools
 module load phylophlan/0.99
-module load biopython
 module load python/2.7.15
 module load FastTree/2.1.10
 module load muscle/3.8.1551

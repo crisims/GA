@@ -1,6 +1,0 @@
-annotation_bin3	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
-annotation_bin25	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
-annotation_bin6	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
-annotation_bin2	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
-annotation_bin18	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
-annotation_bin17	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?

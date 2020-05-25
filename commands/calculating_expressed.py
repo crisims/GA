@@ -1,5 +1,5 @@
 import sys
-
+#SECOND ANALYSIS
 #read in text files and create list of lines
 lines_1 = open(sys.argv[1], "r").read().split('\n')
 

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sys
 #FIRST ANALYSIS
 #This script calculates the gene lengths and thereafter computes the RPKM for each feature

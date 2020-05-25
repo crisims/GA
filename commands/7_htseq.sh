@@ -17,8 +17,8 @@ bin=(1 2 3 6 8 9 14 17 18 19 20 21 22 23 24 25)
 
 for i in "${bin[@]}"
 do
-    htseq-count -f bam -r pos -t CDS -i ID -s no /home/crisdu/analyses_done/6_bwa/bin_1_mapped_pair37_sorted.bam <(sed '/##FASTA/,$d' /home/crisdu/analyses_done/5_prokka/bin_$i/annotation_bin$i.gff) > /home/crisdu/analyses_done/7_htseq/bin_$i.out
-    htseq-count -f bam -r pos -t CDS -i ID -s no /home/crisdu/analyses_done/6_bwa/bin_1_mapped_pair39_sorted.bam <(sed '/##FASTA/,$d' /home/crisdu/analyses_done/5_prokka/bin_$i/annotation_bin$i.gff) > /home/crisdu/analyses_done/7_htseq/bin_$i.out
+    htseq-count -f bam -r pos -t CDS -i ID -s no /home/crisdu/analyses_done/6_bwa/bin_1_mapped_pair37_sorted.bam <(sed '/##FASTA/,$d' /home/crisdu/analyses_done/5_prokka/bin_$i/annotation_bin$i.gff) > /home/crisdu/analyses_done/7.1_htseq/37_bin_$i.out
+    htseq-count -f bam -r pos -t CDS -i ID -s no /home/crisdu/analyses_done/6_bwa/bin_1_mapped_pair39_sorted.bam <(sed '/##FASTA/,$d' /home/crisdu/analyses_done/5_prokka/bin_$i/annotation_bin$i.gff) > /home/crisdu/analyses_done/7.1_htseq/39_bin_$i.out
 done
 
 # -f {sam,bam}, --format {sam,bam} type of <alignment_file> data, either 'sam' or 'bam' (default: sam)

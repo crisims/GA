@@ -3,7 +3,7 @@ import sys
 #This script calculates the gene lengths and thereafter computes the RPKM for each feature
 
 #Creating result file
-result_file = sys.argv[3]
+#result_file = sys.argv[3]
 
 # Importing files:
 #  1. File with annotation to access gene length
@@ -44,5 +44,5 @@ for line in file_count_lines:
       rpkm2 = rpkm/gene_length
 
       # Writing the result to output file
-      with open(result_file, "a") as file:
-       file.write(feature_name + ' ' + str(rpkm2) + '\n')
+      #with open(result_file, "a") as file:
+       #file.write(feature_name + ' ' + str(rpkm2) + '\n')

@@ -13,12 +13,12 @@ for i in "${bin[@]}"
 do
     echo "##############################"
     echo "37 Bin ${i}"
-    python3 calculating_expressed2.py /home/crisdu/analyses_done/5_prokka/bin_$i/annotation_bin$i.gff /home/crisdu/analyses_done/7.1_htseq/bin_$i.out
+    python3 calculating_expressed2.py /home/crisdu/analyses_done/5_prokka/bin_$i/annotation_bin$i.gff /home/crisdu/analyses_done/7.1_htseq/37_bin_$i.out
 done
 
 for i in "${bin[@]}"
 do
     echo "##############################"
     echo "39 Bin ${i}"
-    python3 calculating_expressed2.py /home/crisdu/analyses_done/5_prokka/bin_$i/annotation_bin$i.gff /home/crisdu/analyses_done/7.1_htseq/bin_$i.out
+    python3 calculating_expressed2.py /home/crisdu/analyses_done/5_prokka/bin_$i/annotation_bin$i.gff /home/crisdu/analyses_done/7.1_htseq/39_bin_$i.out
 done

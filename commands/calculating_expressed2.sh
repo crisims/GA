@@ -3,7 +3,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 4:00:00
-#SBATCH -J htseq_analysis
+#SBATCH -J calculating_expressed2
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user cristinadiazubieta@gmail.com
 
